@@ -1,4 +1,39 @@
-# 数据科学研讨会记录
+# 数据科学研讨会记录（信息系统组）
+
+
+### 2018-11-09
+| Title                                    | Detail                                   | Author    | link |
+| ---------------------------------------- | ---------------------------------------- | --------- | --------- |
+| Improving Knowledge Graph Embedding Using Simple Constraints (ACL2018) | 将KG embedding为复数的形式，通过新增复数运算的约束来提高KG embedding的效果| Zhouxiaoxu | [ppt](https://github.com/ECNUdase/Seminar-Materials/blob/master/2018-2019/zhouxiaoxu.pptx) |
+
+### 2018-11-02
+| Title                                    | Detail                                   | Author    | link |
+| ---------------------------------------- | ---------------------------------------- | --------- | --------- |
+| Knowledge-aware Attentive Neural Network for Ranking Question Answer Pairs (SIGIR2018) | 主要做的是问题答案的排序，利用知识图谱扩展句子的表示学习。| Liutingting | [ppt](https://github.com/ECNUdase/Seminar-Materials/blob/master/2018-2019/liutingting.pptx) |
+
+### 2018-10-27
+| Title                                    | Detail                                   | Author    | link |
+| ---------------------------------------- | ---------------------------------------- | --------- | --------- |
+| CoLink: An Unsupervised Framework for User Identity Linkage (AAAI2018) | 一个无监督的框架，用于进行不同网络之间的实体匹配(即找到结点之间的映射关系)  | Lina | [ppt](https://github.com/ECNUdase/Seminar-Materials/blob/master/2018-2019/lina.pptx) |
+
+### 2018-10-20
+| Title                                    | Detail                                   | Author    | link |
+| ---------------------------------------- | ---------------------------------------- | --------- | --------- |
+| A Walk-based Model on Entity Graphs for Relation Extraction (ACL2018) | 进行关系抽取时，考虑了任意两两实体对间的关系构成的网络 | Kuangjun | [ppt](https://github.com/ECNUdase/Seminar-Materials/blob/master/2018-2019/kuangjun.pptx) |
+
+### 2018-10-13
+| Title                                    | Detail                                   | Author    | link |
+| ---------------------------------------- | ---------------------------------------- | --------- | --------- |
+| Contextual String Embeddings for Sequence Labeling (COLING2018) | （flair）预训练一个字符级别的语言模型，用其来对单词进行表征。通过将其与传统的word embedding进行拼接，提高了序列标注任务的性能 | Chenyuanzhe | [ppt](https://github.com/ECNUdase/Seminar-Materials/blob/master/2018-2019/flair.pptx) |
+### 2018-9-28
+| Title                                    | Detail                                   | Author    | link |
+| ---------------------------------------- | ---------------------------------------- | --------- | --------- |
+| Question Difficulty Prediction for READING Problems in Standard Tests (AAAI2017) | 构造了TACNN框架来评估英语阅读问题难度，将文章、问题、选项作为特征输入，预测每个问题的难度系数 | Zhurenyu | [ppt](https://github.com/ECNUdase/Seminar-Materials/blob/master/2018-2019/AAAI%202017%20Question%20Difficulty%20Prediction%20for%20READING%20Problems%20in%20Standard%20Tests.pptx) |
+
+### 2018-9-21
+| Title                                    | Detail                                   | Author    | link |
+| ---------------------------------------- | ---------------------------------------- | --------- | --------- |
+| Learning from Semi-Supervised Weak-Label Data(AAAI2018) | 半监督弱标签下的多标签分类算法(数据集只有少部分标注，大部分未标注；数据标注的准确性无法保证)  | Fuyingnan | [ppt](https://github.com/ECNUdase/Seminar-Materials/blob/master/2018-2019/Learning%20from%20Semi-Supervised%20Weak-Label%20Data.pptx?raw=true) |
 
 ### 2018-3-16
 | Title                                    | Detail                                   | Author    |
@@ -44,9 +79,22 @@
 | Structure Regularized Neural Network  for Entity Relation Classification for Chinese Literature Text | 利用结构正则化简化句法结构，进行关系提取                    | KuangJun  |
 | Ranking-Based Name Matching for Author Disambiguation in Bibliographic Data | KDD Cup 2013第二名，使用基于字符串和元路径的相似度进行作者姓名消歧 | LiNa      |
 
-### 组会 2018-5-18
+### 2018-5-18
 
 | Title                                    | Detail                                   | Author      |
 | ---------------------------------------- | ---------------------------------------- | ----------- |
 | Modeling Mention, Context and Entity with Neural Networks for Entity Disambiguation | 2015年实体消岐的最优模型，采用神经网络，使用了Embedding，卷积，神经张量网络等结构。 | ChenYuanZhe |
 | 解析HashTable，HashMap，ConcurrentHashMap    | 讨论了java中该三种结构的特点，主要从多线程安全性、性能等方面考虑       | YinJiaLing  |
+
+###  2018-6-8
+| Title                                    | Detail                                   | Author     |
+| ---------------------------------------- | ---------------------------------------- | ---------- |
+| Study about word embedding on sentiment subspace | 研究词向量中用于表达情感的向量子空间，目的是提高情感分类任务效果	| Void-Yu    |
+
+###  2018-6-15
+| Title                                    | Detail                                   | Author     |
+| ---------------------------------------- | ---------------------------------------- | ---------- |
+| R-FCN: Object Detection via Region-based Fully Convolutional Networks | 目标检测网络。效果不比之前的RCNN，Fast-RCNN差，但是速度更快了。   | God E      |
+| BiNE: Bipartite Network Embedding        | 在二分图中采用了表示学习的方法，将节点embedding成向量，通过向量距离来度量节点的相似性。 训练过程类似Word2vec，使用了负采样，负样本的采样分布使用了LSH来代替频率 | ChenLeiHui |
+
+
